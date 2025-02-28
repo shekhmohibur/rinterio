@@ -169,8 +169,158 @@
     </header>
 
      <!--Main section  -->
-    <main>
+    <main class="bg-gray-100">
+      <!-- about us section  -->
+       <section class="lg:container px-5 mx-auto relative">
+        <div class="pt-28 grid grid-cols-1 lg:grid-cols-2 place-items-center pb-20">
+          <!-- vector arrow for lg screen -->
+          <div class="lg:absolute top-12 -left-5 hidden lg:flex">
+            <img src="assets/images/Vector.png" alt="Vector">
+          </div>
+          
+          <!-- text content -->
+          <div class="flex flex-col lg:items-start items-center justify-center gap-10">
+            <button class="btn bg-white rounded-xl px-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+              </svg>
+              <span>About Us</span>              
+            </button>
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold">We design thoughtful, liveable spaces</h2>
+            <p class="text-sm sm:text-base text-center">The barn house captivates with its blend of rustic charm and 
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-5">
+              <div class="card bg-base-100 shadow-xl flex flex-row">
+              <figure class="flex-shrink-0">
+                <img
+                  src="assets/images/commercial.png"
+                  alt="commercial" class="w-24 p-3"/>
+              </figure>
+              <div class="card-body flex-1">
+                <h2 class="card-title font-bold">Commercial</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+              <div class="card bg-base-100 shadow-xl flex flex-row">
+              <figure class="flex-shrink-0">
+                <img
+                  src="assets/images/residential.png"
+                  alt="commercial" class="w-24 p-3"/>
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title font-bold">Residential</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+          </div>
+            </div>
+          <!-- image content -->
+          <div class="mt-8 lg:mt-0 md:w-full lg:w-auto md:h-96 lg:h-auto overflow-hidden object-cover rounded-xl">
+            <img src="assets/images/Rectangle.png" alt="House" class="md:w-full md:scale-y-105 origin-[20%_600%] lg:scale-100">
+          </div>
+        </div>
+          
+        <!-- about us cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-10 card bg-base-100">
+          <div class="card">
+            <figure class="px-10 pt-10">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+              </svg>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl lg:text-4xl gap-5">235+</h2>
+              <p>Happy Client Review</p>
+            </div>
+          </div>
+          <div class="card">
+            <figure class="px-10 pt-10">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+              </svg>
+              
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl lg:text-4xl gap-5">50+</h2>
+              <p>Work Department</p>
+            </div>
+          </div>
+          <div class="card">
+            <figure class="px-10 pt-10">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+              </svg>
+              
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl lg:text-4xl gap-5">30k+</h2>
+              <p>Our Happy Clients</p>
+            </div>
+          </div>
+          <div class="card">
+            <figure class="px-10 pt-10">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+              </svg>
+              
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl lg:text-4xl gap-5">307+</h2>
+              <p>Staff Members</p>
+            </div>
+          </div>
+        </div>
+       </section>
 
+       <!-- work procedure section -->
+        <section class="lg:container px-5 mx-auto mt-32">
+           <div class="flex flex-col items-center text-center gap-5 mt-8">
+            <button class="btn bg-white rounded-3xl px-8">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+            How we works
+            </button>
+            <h2 class="font-bold text-4xl"> Our Works Process</h2>
+            <p class="max-w-2xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+           </div>
+           
+           <!-- process cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-8">
+              <!-- card 1 -->
+              <div class="card bg-red-200 p-5">
+                <div class="flex flex-col gap-2">
+                  <img src="assets/images/concept.png" alt="" class="max-w-12 pt-5">
+                  <h2 class="card-title font-bold">Concept</h2>
+                  <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+              <!-- card 1 -->
+              <div class="card bg-yellow-200 p-5">
+                <div class="flex flex-col gap-2">
+                  <img src="assets/images/flow-chart.png" alt="" class="max-w-12 pt-5">
+                  <h2 class="card-title font-bold">Design Process</h2>
+                  <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+              <!-- card 1 -->
+              <div class="card bg-green-200 p-5">
+                <div class="flex flex-col gap-2">
+                  <img src="assets/images/vision.png" alt="" class="max-w-12 pt-5">
+                  <h2 class="card-title font-bold">Supervision</h2>
+                  <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+              <!-- card 1 -->
+              <div class="card bg-blue-300 p-5">
+                <div class="flex flex-col gap-2">
+                  <img src="assets/images/budget-planning.png" alt="" class="max-w-12 pt-5">
+                  <h2 class="card-title font-bold">Budget Planning</h2>
+                  <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+            </div>
+        </section>
     </main>
 
      <!-- Footer section -->
