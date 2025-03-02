@@ -35,6 +35,7 @@
             'btn-color-50': 'rgba(171, 239, 95, 0.5)',
             'bg-primary-1': 'rgb(255, 255, 255)',
             'bg-primary-2': 'rgba(255, 255, 255, 0)',
+            'footer-bg': '#1C1C1C',
           }
         }
       }
@@ -577,9 +578,43 @@
    </section>
   </main>
 
-  
   <!-- Footer section -->
-  <footer>
+  <footer class="footer sm:footer-horizontal bg-footer-bg text-neutral-content p-10">
+    <div class="md:container mx-auto flex flex-col items-center text-center">
+
+      <!-- logo -->
+      <a class="btn bg-transparent shadow-none border-none hover:bg-transparent text-3xl text-white">
+        <span class="bg-btn-color rounded-full text-black p-1 block">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg>
+        </span>
+        Rinterio
+      </a>
+
+      <!-- about -->
+        <p class="max-w-2xl text-gray-400 py-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+        <!-- quick link -->
+         <ul class="flex flex-col md:flex-row gap-y-3 gap-x-28">
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact Us</a></li>
+         </ul>
+
+         <!-- colsult button -->
+         <a class="btn bg-btn-color px-8 rounded-3xl font-bold mt-4">Book Consult
+          <span class="bg-black rounded-full text-white p-1 block">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </span>
+        </a>
+    </div>
   </footer>
 </body>
 
